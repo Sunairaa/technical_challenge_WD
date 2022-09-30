@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import axios from 'axios'
 import { Card } from '@mui/material';
-import { CardContent }from '@mui/material';
+import { CardContent } from '@mui/material';
 import {Container} from '@mui/material';
 import CircularProgress from '@mui/material/CircularProgress';
 
